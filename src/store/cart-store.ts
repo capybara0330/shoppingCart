@@ -25,7 +25,7 @@ export function addToCart(product: Product) {
       };
     }
     return {
-      item: [...state.items, { product, quantity: 1 }],
+      items: [...state.items, { product, quantity: 1 }],
     };
   });
 }
