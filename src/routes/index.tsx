@@ -18,7 +18,7 @@ function HomePage() {
     data: products,
     isPending,
     isError,
-    error
+    error,
   } = useQuery({
     queryKey: ["products"],
     queryFn: fetchProducts,
