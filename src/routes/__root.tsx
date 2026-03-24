@@ -14,8 +14,8 @@ function RootLayout() {
             eStore
           </Link>
           <div className="flex items-center gap-4">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="text-sm text-muted-foreground hover:text-foreground [&.active]:text-foreground"
             >
               Products
@@ -24,7 +24,7 @@ function RootLayout() {
               to="/cart"
               className="text-sm text-muted-foreground hover:text-foreground [&.active]:text-foreground"
             >
-              <ShoppingCart classNmae="h-5 w-5" />
+              <ShoppingCart className="h-5 w-5" />
             </Link>
           </div>
         </nav>
@@ -35,4 +35,3 @@ function RootLayout() {
     </div>
   );
 }
- 
