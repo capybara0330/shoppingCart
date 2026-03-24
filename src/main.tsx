@@ -4,7 +4,7 @@ import { createRouter, RouterProvider } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 import "./index.css";
 
-const router = createRouter({ routeTree, basepath: "/shopping-cart" });
+const router = createRouter({ routeTree, basepath: "/shoppingCart" });
 
 declare module "@tanstack/react-router" {
   interface Register {
